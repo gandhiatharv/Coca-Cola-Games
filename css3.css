@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #CD853F; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #CD853F;
+}
+
+.navbar a:visited{
+  color:white;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #CD853F;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #B37030;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #CD853F;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #B37030;
+  color: white;
+  
+}
+
+.subnav-content a:visited { 
+  text-decoration: line-through; 
+  color: white; 
+}
+
+.subnav-btn a:visited { 
+  text-decoration: line-through; 
+  color: white; 
+}
+
+a:visited { 
+  text-decoration: line-through; 
+  color: white; 
+}
+
+
+.subnav:hover .subnav-content {
+  display: block;
+}
