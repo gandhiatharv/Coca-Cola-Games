@@ -29,7 +29,7 @@ function preload() {
   backgroundimg = loadImage("background.png");
   restartimg = loadImage("restart1.png");
   knifeSound = loadSound("knifeSwooshSound.mp3");
-  gameOverSound = loadSound("gameover.mp3");
+  gameOverSound = loadSound("gameOver.mp3");
   sound1=loadSound("bigexplode.mp3");
   sound2=loadSound("smallexplode.mp3");
 
